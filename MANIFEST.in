@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include eneegy_main *.css
+recursive-include eneegy_main *.csv
+recursive-include eneegy_main *.html
+recursive-include eneegy_main *.ico
+recursive-include eneegy_main *.js
+recursive-include eneegy_main *.json
+recursive-include eneegy_main *.md
+recursive-include eneegy_main *.png
+recursive-include eneegy_main *.py
+recursive-include eneegy_main *.svg
+recursive-include eneegy_main *.txt
+recursive-exclude eneegy_main *.pyc
